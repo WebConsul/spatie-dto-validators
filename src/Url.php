@@ -2,6 +2,9 @@
 
 namespace Ekut\SpatieDtoValidators;
 
+use Attribute;
+
+#[Attribute(Attribute::TARGET_PROPERTY)]
 class Url extends AbstractBaseValidator
 {
     /**
